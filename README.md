@@ -76,7 +76,7 @@ pip install -U "numpy<2.0" "pandas==2.2.2" kagglehub huggingface_hub \
 
 | Category | Metrics |
 |---|---|
-| **Turn-level** | Precision, Recall, F1, False Negative Rate, Confusion Matrix |
+| **Turn-level** | Latency Detection, Recall, FP |
 | **Conversation-level** | Macro Precision/Recall/F1, Detection Latency (turns to first block) |
 | **Safety-critical** | Post-onset Pass Rate, % of harmful conversations never flagged |
 | **Synthetic quality** | Type-Token Ratio, Distinct-1 & Distinct-2 (n-gram diversity) |
