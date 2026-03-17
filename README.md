@@ -8,7 +8,7 @@ The system acts as a real-time supervisor that sits between users and a chatbot,
 
 1. **Zero-shot Supervisor** — A single LLM classifies user input with no examples, outputting `PASS` or `BLOCK` verdicts.
 2. **Multi-shot Supervisor** — Few-shot learning with explicit examples of hate speech categories improves classification accuracy.
-3. **Multi-model Ensemble** — Five specialized supervisors (racism, sexism, homophobia, violence, illegal activity) vote independently. If any model votes `BLOCK`, the request is blocked.
+3. **Model Scalability** — Compares the same zero-shot prompting strategy across model scales (1B vs. 8B), evaluating whether larger models are more robust to adversarial escalation and better calibrated for early detection without additional prompt engineering.
 4. **HateBERT** — Replicates the core idea behind GuardReasoner using a fine-tuned BERT encoder instead of an expensive chain-of-thought safety model. HateBERT receives the full cumulative conversation prefix at each turn, enabling context-aware escalation detection at a fraction of the compute cost.
 
 ## Project Structure
