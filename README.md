@@ -1,4 +1,4 @@
-**CS263 Final Project**
+## **CS263 Final Project**
 
 A multi-approach content moderation system that uses LLMs to detect and block harmful content in multi-turn conversations. The project implements and evaluates several supervisor strategies — from zero-shot classification to multi-model ensembles — and includes a custom data generation pipeline for escalation detection research.
 
