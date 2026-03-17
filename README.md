@@ -16,7 +16,7 @@ The system acts as a real-time supervisor that sits between users and a chatbot,
 ```
 CS263_FinalProject_ContentModeration/
 ├── README.md
-├── full_pipeline.ipynb                   # Main end-to-end pipeline (start here)
+├── full_pipeline_v7.ipynb                 # Main end-to-end pipeline (start here)
 ├── content-moderation-supervisor.ipynb   # Individual supervisor implementations
 ├── data_engineering.ipynb                # Synthetic escalation data generation
 └── conversation_to_eval.ipynb            # Evaluation framework & metrics
