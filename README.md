@@ -24,7 +24,7 @@ CS263_FinalProject_ContentModeration/
 
 ## Notebooks
 
-### `full_pipeline.ipynb`
+### `full_pipeline_v7.ipynb`
 **Start here.** The main notebook that integrates all components into a complete end-to-end content moderation pipeline — from data ingestion through supervisor evaluation and metrics.
 
 ### `content-moderation-supervisor.ipynb`
